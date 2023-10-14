@@ -1,0 +1,104 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(217, 54%, 11%);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color:hsl(215, 20%, 12%) ;
+    background-color:hsl(216, 50%, 16%) ;
+    height: 25rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px hsl(218, 63%, 9%);
+    
+}
+
+img {
+    border-radius: 5px;
+}
+
+.nft-name {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.info  {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.price-days {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    vertical-align: middle;
+
+}
+
+.icon   {
+    vertical-align: bottom;
+
+}
+
+.price {
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.underline {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%)
+
+}
+
+.icon2 {
+    height: 20px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.owner-name {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif; 
+}
+
